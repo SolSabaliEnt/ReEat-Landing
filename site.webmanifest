@@ -1,0 +1,24 @@
+{
+  "name": "Re:Eat",
+  "short_name": "Re:Eat",
+  "description": "A shared household food system for weekly meal planning, personalized plates, groceries, leftovers, recipes and kitchen help.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFFDF8",
+  "theme_color": "#0497A7",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
