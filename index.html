@@ -1259,6 +1259,11 @@ const SITE_CSS = `
 .site-cta { min-height: 52px; padding: 0 19px; border: 1px solid rgba(7,59,102,.2); border-radius: 14px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; background: rgba(255,253,248,.78); color: var(--re-navy); font-size: 15px; font-weight: 700; text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
 .site-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(7,59,102,.12); }
 .site-cta-primary { border-color: transparent; background: linear-gradient(90deg,var(--re-navy),var(--re-teal)); color: white; box-shadow: 0 12px 28px rgba(7,59,102,.2); }
+.reeat-site a.site-nav-cta,
+.reeat-site a.site-cta-primary {
+    color: var(--re-plate-white);
+    -webkit-text-fill-color: var(--re-plate-white);
+}
 .site-cta-inverse { border-color: rgba(255,255,255,.28); background: rgba(255,255,255,.08); color:white; }
 .hero-trust { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 16px; color: var(--muted-text-gray); font-size: 12px; }
 .hero-trust span { display: inline-flex; align-items:center; gap:6px; }
